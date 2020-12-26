@@ -1,0 +1,8 @@
+.wrapper {
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-title);
+}

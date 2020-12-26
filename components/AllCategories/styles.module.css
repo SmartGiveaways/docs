@@ -1,0 +1,26 @@
+.wrapper {
+}
+
+.wrapper h2 {
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-title);
+}
+
+.card {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.card h3 {
+  height: 30px;
+  padding: 5px;
+  line-height: 16px;
+  border-radius: 5px;
+  background: var(--color-primary);
+}
+
+.card p {
+  text-align: center;
+  color: var(--color-text_reverse);
+}

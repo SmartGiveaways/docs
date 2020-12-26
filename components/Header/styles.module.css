@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.left {
+  flex: 1 1 0%;
+}
+
+.left a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--color-text);
+}
