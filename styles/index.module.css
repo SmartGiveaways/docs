@@ -6,3 +6,10 @@
   text-align: center;
   color: var(--color-title);
 }
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
