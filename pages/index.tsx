@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 import AllCategories from "../components/AllCategories";
-import PopularDocs from '../components/PopularDocs';
+import PopularDocs from "../components/PopularDocs";
 
 import styles from "../styles/index.module.css";
 
@@ -14,10 +14,10 @@ export default function Index() {
       <div className={styles.wrapper}>
         <h1>Welcome! <span style={{fontWeight: "normal"}}>How can we help?</span></h1>
         <div className={styles.content}>
-          <AllCategories /> 
+          <AllCategories />
           <PopularDocs />
         </div>
       </div>
     </div>
-  )
+  );
 }

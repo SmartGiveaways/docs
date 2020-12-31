@@ -13,6 +13,6 @@ const Header = () => {
       <ThemeToggle />
     </div>
   );
-}
+};
 
 export default Header;

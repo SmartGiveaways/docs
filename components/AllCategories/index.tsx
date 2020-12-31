@@ -18,6 +18,6 @@ const AllCategories = ({}) => {
       </div>
     </div>
   );
-}
+};
 
 export default AllCategories;

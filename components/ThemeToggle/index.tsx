@@ -82,6 +82,6 @@ const ThemeToggle = () => {
       </animated.g>
     </animated.svg>
   );
-}
+};
 
 export default ThemeToggle;

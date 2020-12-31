@@ -1,5 +1,5 @@
 import GlobalStyles from "../styles/global";
-import { ThemeProvider } from '../context/ThemeContext';
+import { ThemeProvider } from "../context/ThemeContext";
 import Head from "next/head";
 import Layout from "../components/Layout";
 
@@ -15,6 +15,6 @@ const App = ({ Component, pageProps }) => {
       </Layout>
     </ThemeProvider>
   );
-}
+};
 
-export default App
+export default App;

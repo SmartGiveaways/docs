@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect, useMemo } from "react";
 import { COLORS } from "../constants";
 
-export const ThemeContext = createContext(undefined);
+export const ThemeContext = createContext(null);
 
 export const ThemeProvider = ({ children }) => {
   const [theme, rawSetTheme] = useState("light");
@@ -23,7 +23,7 @@ export const ThemeProvider = ({ children }) => {
         root.style.setProperty(variable, colors[value]);
       });
       rawSetTheme(value);
-    }
+    };
 
     return {
       theme,

@@ -11,7 +11,7 @@ const Document = ({ data }) => {
       <div className={styles.text} dangerouslySetInnerHTML={{ __html: data.htmlContent }} />
     </article>
     );
-}
+};
 
 export const getStaticPaths = async () => {
   const paths = getMeta();

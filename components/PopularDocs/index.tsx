@@ -15,6 +15,6 @@ const PopularDocs = ({}) => {
       </div>
     </div>
   );
-}
+};
 
 export default PopularDocs;

@@ -9,10 +9,10 @@ const rootDir = path.join(process.cwd(), "documents");
 export const getCategories = () => {
   const directories = fs.readdirSync(rootDir);
   return directories;
-}
+};
 
 export const getMeta = () => {
-  const documents = []
+  const documents = [];
   getCategories().forEach((category) => {
     if (category === "documents.ts") {
       return; 
