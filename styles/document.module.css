@@ -1,0 +1,16 @@
+.wrapper {
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-title);
+  margin-bottom: 50px;
+}
+
+.text {
+  text-align: left;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
